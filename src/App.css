@@ -1,0 +1,13 @@
+.add-contact-button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.contact-list {
+    margin-top: 3rem;
+}
+
+.container {
+    margin-bottom: 5rem;
+}

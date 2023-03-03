@@ -1,0 +1,53 @@
+.add-contact-form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    /* Add margin to create space */
+    padding: 10px; /* Reduce padding */
+    width: 50%; /* Reduce width */
+    margin: 0 auto; /* Center form */
+    z-index: 1; /* Add z-index */
+}
+
+.add-contact-form h2 {
+    font-size: 1rem; /* Reduce font size */
+    margin-bottom: 10px; /* Reduce margin */
+}
+
+.add-contact-form input[type="text"],
+.add-contact-form input[type="tel"],
+.add-contact-form input[type="email"],
+.add-contact-form input[type="number"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.8rem; /* Reduce font size */
+    margin-bottom: 5px; /* Reduce margin */
+    padding: 5px; /* Reduce padding */
+    width: 100%;
+}
+
+.add-contact-form-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.add-contact-form-submit-button,
+.add-contact-form-cancel-button {
+    width: 100px; /* Reduce button width */
+    margin-right: 0.5rem; /* Reduce margin */
+    margin-bottom: 0.5rem; /* Reduce margin */
+}
+
+.add-contact-form-submit-button {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.add-contact-form-cancel-button {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+}
